@@ -1,0 +1,228 @@
+2019-May-26 19:13:21  [MainThread] log.py[line:146]/INFO/  Scrapy 1.6.0 started (bot: doctor)
+2019-May-26 19:13:21  [MainThread] log.py[line:149]/INFO/  Versions: lxml 4.3.2.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.2 (default, Feb 21 2019, 17:35:59) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-May-26 19:13:21  [MainThread] crawler.py[line:38]/INFO/  Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_START_DELAY': 3, 'BOT_NAME': 'doctor', 'CONCURRENT_REQUESTS': 10, 'CONCURRENT_REQUESTS_PER_DOMAIN': 10, 'DOWNLOAD_DELAY': 3, 'NEWSPIDER_MODULE': 'doctor.spiders', 'SPIDER_MODULES': ['doctor.spiders']}
+2019-May-26 19:13:21  [MainThread] telnet.py[line:60]/INFO/  Telnet Password: 1e9e84ee5dc724f7
+2019-May-26 19:13:21  [MainThread] middleware.py[line:48]/INFO/  Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2019-May-26 19:13:21  [MainThread] middleware.py[line:48]/INFO/  Enabled downloader middlewares:
+['proxyPool.scrapy.middlewares.RetryMiddleware',
+ 'proxyPool.scrapy.middlewares.ProxyMiddleware',
+ 'proxyPool.scrapy.middlewares.CatchExceptionMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'proxyPool.scrapy.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-May-26 19:13:21  [MainThread] middleware.py[line:48]/INFO/  Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-May-26 19:13:22  [MainThread] middleware.py[line:48]/INFO/  Enabled item pipelines:
+['doctor.pipelines.DoctorPipeline']
+2019-May-26 19:13:22  [MainThread] engine.py[line:256]/INFO/  Spider opened
+2019-May-26 19:13:22  [MainThread] logstats.py[line:48]/INFO/  Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-May-26 19:13:22  [MainThread] telnet.py[line:74]/INFO/  Telnet console listening on 127.0.0.1:6023
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://14.20.235.242:9797 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://117.90.4.193:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://117.90.4.193:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://115.219.12.145:8118 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://114.99.253.204:8118 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://171.11.179.2:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://27.43.188.14:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://1.197.204.227:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://120.83.100.133:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://60.13.42.246:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:13:22  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 14.20.235.242 proxy  ===
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:13:22  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 14.20.235.242 proxy  ===
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://1.197.203.158:9999 】 =====
+2019-May-26 19:13:22  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:22  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/beijing/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 14.20.235.242:9797 [{'status': 403, 'reason': b'Forbidden'}]
+2019-May-26 19:13:33  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:13:33  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 117.90.4.193 proxy  ===
+2019-May-26 19:13:33  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:13:33  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 117.90.4.193 proxy  ===
+2019-May-26 19:13:33  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:33  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://223.199.174.54:53281 】 =====
+2019-May-26 19:13:33  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:33  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/shanghai/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2019-May-26 19:13:47  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:13:47  [MainThread] proxyDBManager.py[line:176]/DEBUG/  ===  success to delete 117.90.4.193 proxy  ===
+2019-May-26 19:13:47  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:13:47  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:47  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://222.184.7.206:40908 】 =====
+2019-May-26 19:13:47  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:47  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/guangdong/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:13:54  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:13:54  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 114.99.253.204 proxy  ===
+2019-May-26 19:13:54  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:13:55  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 114.99.253.204 proxy  ===
+2019-May-26 19:13:55  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:13:55  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://114.99.253.204:8118 】 =====
+2019-May-26 19:13:55  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:13:55  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/jiangsu/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:00  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:00  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 171.11.179.2 proxy  ===
+2019-May-26 19:14:00  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:00  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 171.11.179.2 proxy  ===
+2019-May-26 19:14:00  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:00  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://183.163.46.169:9999 】 =====
+2019-May-26 19:14:00  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:00  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/zhejiang/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:04  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:04  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 27.43.188.14 proxy  ===
+2019-May-26 19:14:04  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:04  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 27.43.188.14 proxy  ===
+2019-May-26 19:14:04  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:04  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://112.85.164.94:9999 】 =====
+2019-May-26 19:14:04  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:04  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/anhui/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:08  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:08  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 1.197.204.227 proxy  ===
+2019-May-26 19:14:08  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:08  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 1.197.204.227 proxy  ===
+2019-May-26 19:14:08  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:08  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://175.42.68.248:9999 】 =====
+2019-May-26 19:14:08  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:08  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/jiangxi/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:09  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:09  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 120.83.100.133 proxy  ===
+2019-May-26 19:14:09  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:09  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 120.83.100.133 proxy  ===
+2019-May-26 19:14:09  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:09  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://60.2.44.182:30963 】 =====
+2019-May-26 19:14:09  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:09  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/fujian/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:16  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:16  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 60.13.42.246 proxy  ===
+2019-May-26 19:14:16  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:16  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 60.13.42.246 proxy  ===
+2019-May-26 19:14:16  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:16  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://121.233.206.108:9999 】 =====
+2019-May-26 19:14:16  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:16  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/shandong/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:18  [MainThread] engine.py[line:238]/DEBUG/  Crawled (200) <GET https://www.haodf.com/yiyuan/heilongjiang/list.htm> (referer: https://www.haodf.com/yiyuan/heilongjiang/list.htm)
+2019-May-26 19:14:18  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:18  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://14.115.104.160:9797 】 =====
+2019-May-26 19:14:18  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:18  [MainThread] doctorcast.py[line:59]/INFO/  parsing hospital list page -- https://www.haodf.com/yiyuan/heilongjiang/list.htm ,剩余链接数：30
+2019-May-26 19:14:18  [MainThread] engine.py[line:238]/DEBUG/  Crawled (200) <GET https://www.haodf.com/yiyuan/hebei/list.htm> (referer: https://www.haodf.com/yiyuan/hebei/list.htm)
+2019-May-26 19:14:18  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:18  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://49.84.195.192:9999 】 =====
+2019-May-26 19:14:18  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:18  [MainThread] doctorcast.py[line:59]/INFO/  parsing hospital list page -- https://www.haodf.com/yiyuan/hebei/list.htm ,剩余链接数：296
+2019-May-26 19:14:19  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:19  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 1.197.203.158 proxy  ===
+2019-May-26 19:14:19  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:19  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 1.197.203.158 proxy  ===
+2019-May-26 19:14:19  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:19  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://111.203.91.116:8080 】 =====
+2019-May-26 19:14:19  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:19  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/sx/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:22  [MainThread] logstats.py[line:48]/INFO/  Crawled 2 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2019-May-26 19:14:25  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:25  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 222.184.7.206 proxy  ===
+2019-May-26 19:14:25  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:25  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 222.184.7.206 proxy  ===
+2019-May-26 19:14:25  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:25  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://27.189.134.121:53281 】 =====
+2019-May-26 19:14:25  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:25  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/henan/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:27  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:27  [MainThread] proxyDBManager.py[line:176]/DEBUG/  ===  success to delete 114.99.253.204 proxy  ===
+2019-May-26 19:14:27  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:27  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:27  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://1.197.203.130:9999 】 =====
+2019-May-26 19:14:27  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:27  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/tianjin/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 19:14:32  [MainThread] middlewares.py[line:69]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 19:14:32  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 183.163.46.169 proxy  ===
+2019-May-26 19:14:32  [MainThread] middlewares.py[line:99]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 19:14:33  [MainThread] proxyDBManager.py[line:181]/DEBUG/  ===  success to update 183.163.46.169 proxy  ===
+2019-May-26 19:14:33  [MainThread] middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 19:14:33  [MainThread] middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://120.83.105.143:9999 】 =====
+2019-May-26 19:14:33  [MainThread] middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 19:14:33  [MainThread] scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/liaoning/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
