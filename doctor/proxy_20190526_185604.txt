@@ -1,0 +1,1104 @@
+2019-May-26 18:56:13 log.py[line:146]/INFO/  Scrapy 1.6.0 started (bot: doctor)
+2019-May-26 18:56:13 log.py[line:149]/INFO/  Versions: lxml 4.3.2.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.2 (default, Feb 21 2019, 17:35:59) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-May-26 18:56:13 crawler.py[line:38]/INFO/  Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_START_DELAY': 3, 'BOT_NAME': 'doctor', 'CONCURRENT_REQUESTS': 10, 'CONCURRENT_REQUESTS_PER_DOMAIN': 10, 'DOWNLOAD_DELAY': 3, 'NEWSPIDER_MODULE': 'doctor.spiders', 'SPIDER_MODULES': ['doctor.spiders']}
+2019-May-26 18:56:13 telnet.py[line:60]/INFO/  Telnet Password: 8ad6be77c4af2b43
+2019-May-26 18:56:13 middleware.py[line:48]/INFO/  Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2019-May-26 18:56:14 middleware.py[line:48]/INFO/  Enabled downloader middlewares:
+['proxyPool.scrapy.middlewares.RetryMiddleware',
+ 'proxyPool.scrapy.middlewares.ProxyMiddleware',
+ 'proxyPool.scrapy.middlewares.CatchExceptionMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'proxyPool.scrapy.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-May-26 18:56:14 middleware.py[line:48]/INFO/  Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-May-26 18:56:14 middleware.py[line:48]/INFO/  Enabled item pipelines:
+['doctor.pipelines.DoctorPipeline']
+2019-May-26 18:56:14 engine.py[line:256]/INFO/  Spider opened
+2019-May-26 18:56:14 logstats.py[line:48]/INFO/  Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-May-26 18:56:14 telnet.py[line:74]/INFO/  Telnet console listening on 127.0.0.1:6023
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://180.104.63.220:9000 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://111.77.22.243:9000 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://111.77.22.243:9000 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://112.247.176.104:8060 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://180.118.134.23:9999 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://111.77.22.243:9000 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://59.62.26.145:9000 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://115.29.3.37:80 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://61.184.109.33:50371 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:14 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://61.184.109.33:50371 】 =====
+2019-May-26 18:56:14 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:33 middlewares.py[line:74]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 18:56:33 proxyDBManager.py[line:181]/DEBUG/  ===  success to update 180.104.63.220 proxy  ===
+2019-May-26 18:56:33 middlewares.py[line:67]/DEBUG/  ======  ProxyMiddleware   process_exception  ======
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 connectionpool.py[line:205]/DEBUG/  Starting new HTTP connection (1): www.xicidaili.com:80
+2019-May-26 18:56:33 connectionpool.py[line:393]/DEBUG/  http://www.xicidaili.com:80 "GET /wt/1 HTTP/1.1" 301 185
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): www.xicidaili.com:443
+2019-May-26 18:56:33 connectionpool.py[line:393]/DEBUG/  https://www.xicidaili.com:443 "GET /wt/1 HTTP/1.1" 200 None
+2019-May-26 18:56:33 xiciSpider.py[line:80]/DEBUG/  抓取 xici 网站共计 50 个代理
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:33 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:34 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:35 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:36 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:36 requestEnginer.py[line:66]/DEBUG/  =====  经过过滤后剩下 50 个代理  =====
+2019-May-26 18:56:36 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:36 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:36 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:36 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:37 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:38 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:39 middlewares.py[line:104]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 18:56:39 proxyDBManager.py[line:181]/DEBUG/  ===  success to update 180.104.63.220 proxy  ===
+2019-May-26 18:56:39 middlewares.py[line:74]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 18:56:39 proxyDBManager.py[line:181]/DEBUG/  ===  success to update 111.77.22.243 proxy  ===
+2019-May-26 18:56:39 middlewares.py[line:67]/DEBUG/  ======  ProxyMiddleware   process_exception  ======
+2019-May-26 18:56:39 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:39 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:39 connectionpool.py[line:205]/DEBUG/  Starting new HTTP connection (1): www.xicidaili.com:80
+2019-May-26 18:56:40 connectionpool.py[line:393]/DEBUG/  http://www.xicidaili.com:80 "GET /wt/1 HTTP/1.1" 301 185
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): www.xicidaili.com:443
+2019-May-26 18:56:40 connectionpool.py[line:393]/DEBUG/  https://www.xicidaili.com:443 "GET /wt/1 HTTP/1.1" 200 None
+2019-May-26 18:56:40 xiciSpider.py[line:80]/DEBUG/  抓取 xici 网站共计 50 个代理
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:40 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (3): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:41 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:41 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:42 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:42 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:43 requestEnginer.py[line:66]/DEBUG/  =====  经过过滤后剩下 50 个代理  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:43 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:44 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:45 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:46 middlewares.py[line:104]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 18:56:46 proxyDBManager.py[line:181]/DEBUG/  ===  success to update 111.77.22.243 proxy  ===
+2019-May-26 18:56:46 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:46 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://58.253.152.98:9999 】 =====
+2019-May-26 18:56:46 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:46 scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/beijing/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 18:56:46 middlewares.py[line:74]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 18:56:46 proxyDBManager.py[line:176]/DEBUG/  ===  success to delete 111.77.22.243 proxy  ===
+2019-May-26 18:56:46 middlewares.py[line:67]/DEBUG/  ======  ProxyMiddleware   process_exception  ======
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 connectionpool.py[line:205]/DEBUG/  Starting new HTTP connection (1): www.xicidaili.com:80
+2019-May-26 18:56:46 connectionpool.py[line:393]/DEBUG/  http://www.xicidaili.com:80 "GET /wt/1 HTTP/1.1" 301 185
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): www.xicidaili.com:443
+2019-May-26 18:56:46 connectionpool.py[line:393]/DEBUG/  https://www.xicidaili.com:443 "GET /wt/1 HTTP/1.1" 200 None
+2019-May-26 18:56:46 xiciSpider.py[line:80]/DEBUG/  抓取 xici 网站共计 50 个代理
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:46 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:47 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:47 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:47 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:48 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:49 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:49 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:49 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:49 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:52 retry.py[line:400]/DEBUG/  Incremented Retry for (url='/LWX_____________/article/details/88875370'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:52 connectionpool.py[line:662]/WARNING/  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FD09C69208>, 'Connection to blog.csdn.net timed out. (connect timeout=3)')': /LWX_____________/article/details/88875370
+2019-May-26 18:56:52 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:55 retry.py[line:400]/DEBUG/  Incremented Retry for (url='/LWX_____________/article/details/88875370'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:55 connectionpool.py[line:662]/WARNING/  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FD09AB1F98>, 'Connection to blog.csdn.net timed out. (connect timeout=3)')': /LWX_____________/article/details/88875370
+2019-May-26 18:56:55 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (3): blog.csdn.net:443
+2019-May-26 18:56:55 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:56 requestEnginer.py[line:66]/DEBUG/  =====  经过过滤后剩下 50 个代理  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:56 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:57 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:58 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:59 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:56:59 middlewares.py[line:104]/DEBUG/  ======  RetryMiddleware   process_exception  ======
+2019-May-26 18:56:59 middlewares.py[line:60]/DEBUG/  ======  ProxyMiddleware   process_request  ======
+2019-May-26 18:56:59 middlewares.py[line:63]/DEBUG/  =====  ProxyMiddleware get a random_proxy:【 http://115.199.112.132:80 】 =====
+2019-May-26 18:56:59 middlewares.py[line:50]/DEBUG/  ======  RandomUserAgentMiddleware   process_request  ======
+2019-May-26 18:56:59 scraper.py[line:208]/ERROR/  Error downloading <GET https://www.haodf.com/yiyuan/shanghai/list.htm>
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-May-26 18:56:59 middlewares.py[line:74]/DEBUG/  ======  CatchExceptionMiddleware   process_exception  ======
+2019-May-26 18:56:59 proxyDBManager.py[line:181]/DEBUG/  ===  success to update 180.118.134.23 proxy  ===
+2019-May-26 18:56:59 middlewares.py[line:67]/DEBUG/  ======  ProxyMiddleware   process_exception  ======
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 connectionpool.py[line:205]/DEBUG/  Starting new HTTP connection (1): www.xicidaili.com:80
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  http://www.xicidaili.com:80 "GET /wt/1 HTTP/1.1" 301 185
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): www.xicidaili.com:443
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://www.xicidaili.com:443 "GET /wt/1 HTTP/1.1" 200 None
+2019-May-26 18:56:59 xiciSpider.py[line:80]/DEBUG/  抓取 xici 网站共计 50 个代理
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (3): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:56:59 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:56:59 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:00 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:01 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:02 retry.py[line:210]/DEBUG/  Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (1): blog.csdn.net:443
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:02 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:04 retry.py[line:400]/DEBUG/  Incremented Retry for (url='/LWX_____________/article/details/88875370'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:04 connectionpool.py[line:662]/WARNING/  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FD09C494E0>, 'Connection to blog.csdn.net timed out. (connect timeout=3)')': /LWX_____________/article/details/88875370
+2019-May-26 18:57:04 retry.py[line:400]/DEBUG/  Incremented Retry for (url='/LWX_____________/article/details/88875370'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2019-May-26 18:57:04 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:04 connectionpool.py[line:662]/WARNING/  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FD09C478D0>, 'Connection to blog.csdn.net timed out. (connect timeout=3)')': /LWX_____________/article/details/88875370
+2019-May-26 18:57:04 connectionpool.py[line:813]/DEBUG/  Starting new HTTPS connection (2): blog.csdn.net:443
+2019-May-26 18:57:05 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:05 connectionpool.py[line:393]/DEBUG/  https://blog.csdn.net:443 "GET /LWX_____________/article/details/88875370 HTTP/1.1" 200 None
+2019-May-26 18:57:05 requestEnginer.py[line:66]/DEBUG/  =====  经过过滤后剩下 50 个代理  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:05 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:06 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
+2019-May-26 18:57:06 proxyDBManager.py[line:107]/DEBUG/  ===== 成功插入 xici 数据  =====
